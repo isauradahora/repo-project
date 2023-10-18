@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Loja da Isa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" id="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <header class="cabecalho">
+            <div class="info-usuario"> 
+                <p><h2><strong class="nome">Isaura da Hora</strong></h2></p>
+                <small>Último login em: 14/10/2023 às 19:22</small>
+            </div>
+            <nav id="meu-id" class="">
+                <ul> 
+                    <li>
+                        <a href="#">
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#clientes">
+                            Nossos clientes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pedidos">
+                            Pedidos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#fale_conosco">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <main> 
+            <section>
+                <h1>Nova Coleção</h1>
+                <h3>Ganhe 10% off na primeira compra</h3>
+                <ul>
+                    <li>
+                        <figure> 
+                            <img src="./img/2.jpg" alt="Mulher negra sorridente com roupa branca"/>
+                            <figcaption> Mulher negra sorridente com roupa branca </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure> 
+                            <img src="./img/1.jpg" alt="Mulher negra sorridente com roupa branca"/>
+                            <figcaption>Mulher negra sorridente com roupa laranja</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure> 
+                            <img src="./img/4.jpg" alt="Mulher negra de cabelos longos e crespos 
+                            com vestido longo colorido e de mangas compridas"/>
+                            <figcaption>Mulher negra de cabelos longos e crespos 
+                                com vestido longo colorido e de mangas compridas</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure> 
+                            <img src="./img/3.jpg" alt="Mulher negra de cabelos longos e crespos 
+                            sentada no chão com roupa lanraja com dourado"/> 
+                            <figcaption>Mulher negra de cabelos longos e crespos 
+                                sentada no chão com roupa lanraja com dourado</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <a href="https://www.cea.com.br" target="_blank">Clique aqui para conferir</a> 
+            <section id="clientes"> 
+                <h3>
+                    Nossos clientes
+                </h3>
+                <article> 
+                    <h4>Claudia Maria</h4>
+                    <h5><i>Avaliado em: 01/10/2023</i></h5>
+                    <p>
+                        Eu amei a roupa, ficou muito bom!<br/>
+                        Entrega rápida.
+                    </p>
+                </article>
+                <article> 
+                    <h4>Rosana Vieira</h4>
+                    <h5><i>Avaliado em: 03/10/2023</i></h5>
+                    <p>
+                        Incrível a qualidade!!<br/>
+                        Produto de qualidade.
+                    </p>
+                </article>
+            </section>
+            <section id="pedidos"> 
+                <table border="1">
+                    <thead> 
+                        <tr>
+                            <th><strong>ID</strong></th>
+                            <th><strong>Produto</strong></th>
+                            <th><strong>Quantidade</strong></th>
+                            <th><strong>Valor (R$)</strong></th>
+                            <th><strong>Data da Compra</strong></th>
+                        </tr>
+                    </thead>
+
+                    <tbody> 
+                        <tr>
+                            <th>1</th>
+                            <th>Cropped azul</th>
+                            <th>1</th>
+                            <th>19,90</th>
+                            <th>06/10/2023</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>Calça Mom Jeans</th>
+                            <th>1</th>
+                            <th>89,90</th>
+                            <th>06/10/2023</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>Bota Tam 38</th>
+                            <th>1</th>
+                            <th>309,90</th>
+                            <th>06/10/2023</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="fale_conosco">
+                <form>
+                    <p>
+                        <label for="nome"><b>Nome:</b></label>
+                        <input type="text" id="nome" name="nome" value="Digite o seu nome"><br>
+                        <label for="email"><b>Email:</b></label>
+                        <input type="text" id="email" name="email" value="Digite seu email"><br>
+                        <label for="mensagem"><b>Mensagem:</b></label>
+                        <textarea class="msg" cols="25" rows="2"></textarea><br><br>
+                        <input class="btn_submit" type="submit" value="Enviar"><br>
+                </p>
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                &COPY; Copyright | 2023 | Todos os direitos reservados
+            </p>
+        </footer>
+    </body>
+</html>
