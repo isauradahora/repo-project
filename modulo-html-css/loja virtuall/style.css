@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.body {
+  font-family: 'inter', sans-serif;
+  margin: 0;
+}
+
+.cabecalho {
+  display: flex;
+  position: top;
+  width: 100%;
+  background-color: #53952f;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+
+}
+
+li {
+  display: inline-block;
+  background-color: #e3ffd7;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.lista-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.li a {
+  list-style: none;
+  background-color: #FFFFFF;
+}
+
+.info-usuario {
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.nome {
+  text-transform: uppercase;
+}
+
+.secao-colecao {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e3ffd7;
+  color: #53952f;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top:  0px;
+}
+
+.link-site {
+  color: #53952f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+
+}
+
+.topico-clientes {
+  background-color: #baf084;
+  ;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.container article {
+  margin: 56px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  background-color: #e3ffd7;
+  border-width: 10px;
+  border-style: solid;
+  width: 300px;
+  height: 200px;
+  border-color: #e3ffd7;
+  flex-shrink: 0;
+}
+
+.article-lista {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.compras {
+  background-color: #e3ffd7;
+  height: 300px;
+}
+
+.pedidos {
+  text-align: center;
+  align-items: center;
+  color: #53952f;
+  font-size: 32px;
+  background-color: #e3ffd7;
+  display: center;
+  justify-content: center;
+
+}
+
+.nomes-clientes {
+  background-color: #baf084;
+  color: #53952f;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-avaliacao {
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.precos-produtos {
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.precos-produtos table {
+  border-collapse: collapse;
+}
+
+.precos-produtos table th,
+.precos-produtos table td {
+  padding: 10px;
+  text-align: left;
+  color: #53952f;
+  border: 1px solid #53952f;
+  background: #FFF;
+  min-width: 200px;
+  flex-shrink: 0;
+
+}
+
+.contato {
+  background-color: #baf084;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.fale-conosco {
+  text-align: center;
+  color: #53952f;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.secao-fale-conosco {
+  margin: 56px;
+  color: #53952f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.rodape {
+  background-color: #53952f;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
